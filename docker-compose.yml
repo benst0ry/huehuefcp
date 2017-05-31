@@ -1,0 +1,85 @@
+
+fcp-app-nginx:
+  container_name: fcp-app-nginx
+  image: hub.dev.repaem.ru:5000/fcp-app-nginx
+  ports:
+   - 80:80
+  volumes_from:
+   - fcp-app
+  links:
+   - fcp-app:fcp-app
+  environment:
+   - BASIC_AUTH_LOGIN=admin
+   - BASIC_AUTH_PASS=DPHjk88rt
+
+fcp_public_nginx:
+  container_name: fcp_public_nginx
+  image: hub.dev.repaem.ru:5000/fcp_public_nginx
+  ports:
+   - 8080:80
+  links:
+   - fcp_public_app
+  volumes_from:
+   - fcp_public_app
+
+fcp-app:
+  container_name: fcp-app
+  image: hub.dev.repaem.ru:5000/fcp-app
+  environment:
+    - AUTH_TOKEN_NAME=AUTH_TOKEN
+    - AUTH_DOMAIN=fcp.local
+  links:
+    - fcp-db:db
+    - fcp-mongo:mongo
+
+fcp_public_app:
+  container_name: fcp_public_app
+  image: hub.dev.repaem.ru:5000/fcp_public_app
+  environment:
+    - AUTH_TOKEN_NAME=AUTH_TOKEN
+    - AUTH_DOMAIN=.fcp_public.ru
+    - MEDIA_CATEGORIES=["1#Новости", "2#Анонсы", "11#Дирекция", "12#О ФЦП", "13#Мероприятия", "14#Контакты"]
+  links:
+    - fcp-img:img
+    - fcp-s3:s3
+    - fcp-blog-api:blog-api
+
+
+
+fcp-mongo:
+  container_name: fcp-mongo
+  image: mongo
+  volumes:
+   - /Users/ayurjev/DockerVolumes/mongo/fcp:/data/db
+
+fcp-db:
+  container_name: fcp-db
+  image: hub.dev.repaem.ru:5000/mysql
+  environment:
+   - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+   - MYSQL_DATABASE=fcp
+  ports:
+   - 3322:3306
+  volumes:
+   - /Users/ayurjev/DockerVolumes/mysql/fcp:/var/lib/mysql
+
+fcp-blog-api:
+  container_name: fcp-blog-api
+  image: hub.dev.repaem.ru:5000/blog-api
+  links:
+   - fcp-mongo:mongo
+
+fcp-img:
+  container_name: fcp-img
+  image: hub.dev.repaem.ru:5000/z9img
+
+fcp-s3:
+  container_name: fcp-s3
+  image: hub.dev.repaem.ru:5000/z9s3
+  environment:
+   - AWS_ACCESS_KEY_ID=AKIAIYH3UAYWYWFHSG7Q
+   - AWS_SECRET_ACCESS_KEY=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
+   - AWS_DEFAULT_REGION=eu-central-1
+   - S3BUCKET=mydockertest
+   - S3CONTENTTYPE=image/jpeg
+   - S3BUCKETURL=https://s3.eu-central-1.amazonaws.com/mydockertest/
