@@ -1,130 +1,128 @@
-{
-  "data": [
-    {
-      "Responsible": "Быков М. Г.",
-      "Comments": 14,
-      "GoodCalls": 9,
-      "TotalCalls": 13
-    },
-    {
-      "Responsible": "Варламов В. А.",
-      "Comments": 8,
-      "GoodCalls": 19,
-      "TotalCalls": 37
-    },
-    {
-      "Responsible": "Васильева А. А.",
-      "Comments": 14,
-      "GoodCalls": 0,
-      "TotalCalls": 0
-    },
-    {
-      "Responsible": "Главатских О. И.",
-      "Comments": 19,
-      "GoodCalls": 12,
-      "TotalCalls": 17
-    },
-    {
-      "Responsible": "Головизнина М. С.",
-      "Comments": 48,
-      "GoodCalls": 0,
-      "TotalCalls": 0
-    },
-    {
-      "Responsible": "Дерягина М. В.",
-      "Comments": 17,
-      "GoodCalls": 0,
-      "TotalCalls": 0
-    },
-    {
-      "Responsible": "Загуменнова Г. В.",
-      "Comments": 20,
-      "GoodCalls": 3,
-      "TotalCalls": 5
-    },
-    {
-      "Responsible": "Зайцев А. А.",
-      "Comments": 20,
-      "GoodCalls": 11,
-      "TotalCalls": 39
-    },
-    {
-      "Responsible": "Кулигина Е. А.",
-      "Comments": 16,
-      "GoodCalls": 1,
-      "TotalCalls": 7
-    },
-    {
-      "Responsible": "Ломаева Е. В.",
-      "Comments": 59,
-      "GoodCalls": 0,
-      "TotalCalls": 0
-    },
-    {
-      "Responsible": "Мерзляков А. В.",
-      "Comments": 43,
-      "GoodCalls": 1,
-      "TotalCalls": 4
-    },
-    {
-      "Responsible": "Микрюкова С. А.",
-      "Comments": 43,
-      "GoodCalls": 20,
-      "TotalCalls": 36
-    },
-    {
-      "Responsible": "Нуриахметова К. О.",
-      "Comments": 22,
-      "GoodCalls": 0,
-      "TotalCalls": 0
-    },
-    {
-      "Responsible": "Осипов А. Ю.",
-      "Comments": 5,
-      "GoodCalls": 0,
-      "TotalCalls": 0
-    },
-    {
-      "Responsible": "Оточина Е. С.",
-      "Comments": 13,
-      "GoodCalls": 1,
-      "TotalCalls": 1
-    },
-    {
-      "Responsible": "Павлова С. Ф.",
-      "Comments": 44,
-      "GoodCalls": 0,
-      "TotalCalls": 3
-    },
-    {
-      "Responsible": "Петров Р. В.",
-      "Comments": 43,
-      "GoodCalls": 19,
-      "TotalCalls": 35
-    },
-    {
-      "Responsible": "Скворцова В. С.",
-      "Comments": 23,
-      "GoodCalls": 2,
-      "TotalCalls": 4
-    },
-    {
-      "Responsible": "Тунгускова А. С.",
-      "Comments": 10,
-      "GoodCalls": 10,
-      "TotalCalls": 32
-    },
-    {
-      "Responsible": "Тухватуллин Л. З.",
-      "Comments": 36,
-      "GoodCalls": 11,
-      "TotalCalls": 11
-    },
-    {
-      "Responsible": "Шутов Р. Ю.",
-      "Comments": 7,
-      "GoodCalls": 10,
-      "TotalCalls": 11
-    }
-  ]
-}
+[
+  {
+    "Responsible": "Быков М. Г.",
+    "Comments": 14,
+    "GoodCalls": 9,
+    "TotalCalls": 13
+  },
+  {
+    "Responsible": "Варламов В. А.",
+    "Comments": 8,
+    "GoodCalls": 19,
+    "TotalCalls": 37
+  },
+  {
+    "Responsible": "Васильева А. А.",
+    "Comments": 14,
+    "GoodCalls": 0,
+    "TotalCalls": 0
+  },
+  {
+    "Responsible": "Главатских О. И.",
+    "Comments": 19,
+    "GoodCalls": 12,
+    "TotalCalls": 17
+  },
+  {
+    "Responsible": "Головизнина М. С.",
+    "Comments": 48,
+    "GoodCalls": 0,
+    "TotalCalls": 0
+  },
+  {
+    "Responsible": "Дерягина М. В.",
+    "Comments": 17,
+    "GoodCalls": 0,
+    "TotalCalls": 0
+  },
+  {
+    "Responsible": "Загуменнова Г. В.",
+    "Comments": 20,
+    "GoodCalls": 3,
+    "TotalCalls": 5
+  },
+  {
+    "Responsible": "Зайцев А. А.",
+    "Comments": 20,
+    "GoodCalls": 11,
+    "TotalCalls": 39
+  },
+  {
+    "Responsible": "Кулигина Е. А.",
+    "Comments": 16,
+    "GoodCalls": 1,
+    "TotalCalls": 7
+  },
+  {
+    "Responsible": "Ломаева Е. В.",
+    "Comments": 59,
+    "GoodCalls": 0,
+    "TotalCalls": 0
+  },
+  {
+    "Responsible": "Мерзляков А. В.",
+    "Comments": 43,
+    "GoodCalls": 1,
+    "TotalCalls": 4
+  },
+  {
+    "Responsible": "Микрюкова С. А.",
+    "Comments": 43,
+    "GoodCalls": 20,
+    "TotalCalls": 36
+  },
+  {
+    "Responsible": "Нуриахметова К. О.",
+    "Comments": 22,
+    "GoodCalls": 0,
+    "TotalCalls": 0
+  },
+  {
+    "Responsible": "Осипов А. Ю.",
+    "Comments": 5,
+    "GoodCalls": 0,
+    "TotalCalls": 0
+  },
+  {
+    "Responsible": "Оточина Е. С.",
+    "Comments": 13,
+    "GoodCalls": 1,
+    "TotalCalls": 1
+  },
+  {
+    "Responsible": "Павлова С. Ф.",
+    "Comments": 44,
+    "GoodCalls": 0,
+    "TotalCalls": 3
+  },
+  {
+    "Responsible": "Петров Р. В.",
+    "Comments": 43,
+    "GoodCalls": 19,
+    "TotalCalls": 35
+  },
+  {
+    "Responsible": "Скворцова В. С.",
+    "Comments": 23,
+    "GoodCalls": 2,
+    "TotalCalls": 4
+  },
+  {
+    "Responsible": "Тунгускова А. С.",
+    "Comments": 10,
+    "GoodCalls": 10,
+    "TotalCalls": 32
+  },
+  {
+    "Responsible": "Тухватуллин Л. З.",
+    "Comments": 36,
+    "GoodCalls": 11,
+    "TotalCalls": 11
+  },
+  {
+    "Responsible": "Шутов Р. Ю.",
+    "Comments": 7,
+    "GoodCalls": 10,
+    "TotalCalls": 11
+  }
+]
